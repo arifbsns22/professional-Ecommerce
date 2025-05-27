@@ -1,3 +1,4 @@
+import 'package:ecom/features/auth/onboarding_controller/onboarding_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import '../../../../utils/constants/colors.dart';
@@ -16,13 +17,14 @@ class OnBoardingSkip extends StatelessWidget {
         top: TDeviceUtils.getAppBarHeight(),
         right: TSizes.defaultSpace,
         child: TextButton(
-          onPressed: () {},
-          child: const Text('Skip',style: TextStyle(fontSize: 14),),
+          onPressed: () => OnBoardingController.instance.skipPage,
+          child: const Text(
+            'Skip',
+            style: TextStyle(fontSize: 14),
+          ),
         ));
   }
 }
-
-
 
 class OnBoardingPage extends StatelessWidget {
   const OnBoardingPage({
@@ -61,7 +63,6 @@ class OnBoardingPage extends StatelessWidget {
   }
 }
 
-
 class OnBoardingDotNavigation extends StatelessWidget {
   const OnBoardingDotNavigation({
     super.key,
@@ -69,12 +70,18 @@ class OnBoardingDotNavigation extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final controller = OnBoardingController.instance;
     final dark = THelperFunctions.isDarkMode(context);
 
     return Positioned(
+        left: 20,
         bottom: TDeviceUtils.getBottomNavigationBarHeight() + 25,
-        child: SmoothPageIndicator(controller: PageController(),
-            effect: ExpandingDotsEffect(activeDotColor: dark ? TColors.light: TColors.dark, dotHeight: 6),
+        child: SmoothPageIndicator(
+            controller: controller.pageController,
+            onDotClicked: controller.dotNavigationClick,
+            effect: ExpandingDotsEffect(
+                activeDotColor: dark ? TColors.light : TColors.dark,
+                dotHeight: 10),
             count: 3));
   }
 }
