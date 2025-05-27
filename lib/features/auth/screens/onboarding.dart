@@ -1,4 +1,4 @@
-import 'package:econ/features/auth/screens/widgets/onboarding_widgets.dart';
+import 'package:ecom/features/auth/screens/widgets/onboarding_widgets.dart';
 import 'package:flutter/material.dart';
 import '../../../utils/constants/images_strings.dart';
 import '../../../utils/constants/text_strings.dart';

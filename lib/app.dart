@@ -1,7 +1,8 @@
-import 'package:econ/features/auth/screens/onboarding.dart';
-import 'package:econ/utils/theme/theme.dart';
+import 'package:ecom/utils/theme/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
+
+import 'features/auth/screens/onboarding.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
