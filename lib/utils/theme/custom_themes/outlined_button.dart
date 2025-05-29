@@ -24,7 +24,7 @@ class TOutlinedButtonTheme {
     style: OutlinedButton.styleFrom(
       elevation: 0,
       foregroundColor: Colors.white,
-      side: const BorderSide(color: Colors.blueAccent),
+      side: const BorderSide(color: Color(0xFF00F236)),
       textStyle: const TextStyle(
         fontSize: 16,
         color: Colors.white,

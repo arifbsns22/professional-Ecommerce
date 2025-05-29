@@ -6,7 +6,7 @@ class TAppBarTheme {
   static const lightAppBarTheme = AppBarTheme(
     elevation: 0,
     centerTitle: false,
-    scrolledUnderElevation: 0,
+    scrolledUnderElevation: 1,
     backgroundColor: Colors.transparent,
     surfaceTintColor: Colors.transparent,
     iconTheme: IconThemeData(color: Colors.black, size: 24),

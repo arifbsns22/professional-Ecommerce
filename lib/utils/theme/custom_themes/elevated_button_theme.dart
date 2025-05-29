@@ -7,12 +7,12 @@ class TElevatedButtonTheme {
   /// Light Theme
   static final lightElevatedButtonTheme = ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
-      elevation: 0,
+      elevation: 1,
       foregroundColor: Colors.white,
-      backgroundColor: Colors.blue,
+      backgroundColor: const Color(0xFF0D104B),
       disabledForegroundColor: Colors.grey,
       disabledBackgroundColor: Colors.grey,
-      side: const BorderSide(color: Colors.blue),
+      side: const BorderSide(color: Color(0xFF0D104B)),
       padding: const EdgeInsets.symmetric(vertical: 18),
       textStyle: const TextStyle(
         fontSize: 16,
@@ -30,14 +30,14 @@ class TElevatedButtonTheme {
     style: ElevatedButton.styleFrom(
       elevation: 0,
       foregroundColor: Colors.white,
-      backgroundColor: Colors.blue,
+      backgroundColor: const Color(0xFF00F236),
       disabledForegroundColor: Colors.grey,
       disabledBackgroundColor: Colors.grey,
-      side: const BorderSide(color: Colors.blue),
+      side: const BorderSide(color: Color(0xFF00F236)),
       padding: const EdgeInsets.symmetric(vertical: 18),
       textStyle: const TextStyle(
         fontSize: 16,
-        color: Colors.white,
+        color: Colors.black,
         fontWeight: FontWeight.w600,
       ),
       shape: RoundedRectangleBorder(
