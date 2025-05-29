@@ -5,6 +5,7 @@ import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:iconsax/iconsax.dart';
 
+import '../../../../navigation_menu.dart';
 import '../../../../utils/constants/sizes.dart';
 import '../../../../utils/constants/text_strings.dart';
 
@@ -53,7 +54,7 @@ class TLoginForm extends StatelessWidget {
             SizedBox(
                 width: double.infinity,
                 child: ElevatedButton(
-                    onPressed: () {}, child: const Text('Sign In'))),
+                    onPressed: () => Get.to(() => const NavigationMenu()), child: const Text('Sign In'))),
             const SizedBox(height: TSizes.spaceBtwItems),
             SizedBox(
               width: double.infinity,
