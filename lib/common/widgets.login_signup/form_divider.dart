@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import '../../utils/constants/colors.dart';
 
-class TLoginDivider extends StatelessWidget {
-  const TLoginDivider({
+class TFormDivider extends StatelessWidget {
+  const TFormDivider({
     super.key,
-    required this.dark,
+     required this.dark,
     required this.dividerText,
   });
 

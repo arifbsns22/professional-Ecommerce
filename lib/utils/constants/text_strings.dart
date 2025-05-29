@@ -2,6 +2,7 @@
 class TTexts {
 
 // Authentication Form Text
+  static const String and = "and";
   static const String firstName = "First Name";
   static const String lastName = "Last Name";
   static const String email = "E-Mail";

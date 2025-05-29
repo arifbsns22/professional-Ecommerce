@@ -7,8 +7,8 @@ import 'package:ecom/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
-import '../../../utils/constants/images_strings.dart';
-import '../../../utils/constants/text_strings.dart';
+import '../../../../utils/constants/images_strings.dart';
+import '../../../../utils/constants/text_strings.dart';
 
 class OnBoardingScreen extends StatelessWidget {
   const OnBoardingScreen({super.key});
