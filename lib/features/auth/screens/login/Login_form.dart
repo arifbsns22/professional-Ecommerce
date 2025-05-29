@@ -1,3 +1,4 @@
+import 'package:ecom/features/auth/screens/password_config/forget_password.dart';
 import 'package:ecom/features/auth/screens/signup/signup.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -44,7 +45,7 @@ class TLoginForm extends StatelessWidget {
                   ],
                 ),
                 TextButton(
-                    onPressed: () {},
+                    onPressed: () => Get.to(() => const ForgetPassword()),
                     child: const Text(TTexts.forgetPassword))
               ],
             ),
