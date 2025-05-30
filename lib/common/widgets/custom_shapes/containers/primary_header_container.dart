@@ -14,7 +14,7 @@ class PrimaryHeaderContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return TCurvedEdgeWidget(
       child: Container(
-        color: Colors.blue,
+        color: Colors.deepOrange,
         padding: const EdgeInsets.all(0),
         child: SizedBox(
           height: 400,
