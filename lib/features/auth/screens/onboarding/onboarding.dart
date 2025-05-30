@@ -1,6 +1,5 @@
 import 'package:ecom/features/auth/onboarding_controller/onboarding_controller.dart';
 import 'package:ecom/features/auth/screens/widgets/onboarding_widgets.dart';
-import 'package:ecom/utils/constants/colors.dart';
 import 'package:ecom/utils/constants/sizes.dart';
 import 'package:ecom/utils/device/device_utility.dart';
 import 'package:ecom/utils/helpers/helper_functions.dart';
@@ -43,9 +42,9 @@ class OnBoardingScreen extends StatelessWidget {
             ],
           ),
           //-------------------------------Skip Button
-          const OnBoardingSkip(),
+ //         const OnBoardingSkip(),
           //-------------------------------Dot Navigation
-          const OnBoardingDotNavigation(),
+ //         const OnBoardingDotNavigation(),
           //-------------------------------Circular Button
           const OnBoardingNextButton()
         ],
@@ -68,9 +67,10 @@ class OnBoardingNextButton extends StatelessWidget {
         child: ElevatedButton(
           onPressed: () => OnBoardingController.instance.nextPage(),
           style: ElevatedButton.styleFrom(
+            elevation: 2,
               shape: const CircleBorder(),
-              backgroundColor: dark ? TColors.primary : Colors.black),
-          child: const Icon(Iconsax.arrow_right4),
+              backgroundColor: dark ? const Color(0xFF00F236) :const Color(0xFF00F236)),
+          child: const Icon(Iconsax.arrow_right4,color: Colors.black,),
         ));
   }
 }
