@@ -16,7 +16,6 @@ class OnBoardingScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final controller = Get.put(OnBoardingController());
 
-
     return Scaffold(
       body: Stack(
         children: [
@@ -41,11 +40,6 @@ class OnBoardingScreen extends StatelessWidget {
               ),
             ],
           ),
-          //-------------------------------Skip Button
- //         const OnBoardingSkip(),
-          //-------------------------------Dot Navigation
- //         const OnBoardingDotNavigation(),
-          //-------------------------------Circular Button
           const OnBoardingNextButton()
         ],
       ),
@@ -67,10 +61,14 @@ class OnBoardingNextButton extends StatelessWidget {
         child: ElevatedButton(
           onPressed: () => OnBoardingController.instance.nextPage(),
           style: ElevatedButton.styleFrom(
-            elevation: 2,
+              elevation: 2,
               shape: const CircleBorder(),
-              backgroundColor: dark ? const Color(0xFF00F236) :const Color(0xFF00F236)),
-          child: const Icon(Iconsax.arrow_right4,color: Colors.black,),
+              backgroundColor:
+                  dark ? const Color(0xFF00F236) : const Color(0xFF00F236)),
+          child: const Icon(
+            Iconsax.arrow_right4,
+            color: Colors.black,
+          ),
         ));
   }
 }
