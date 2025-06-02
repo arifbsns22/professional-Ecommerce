@@ -1,5 +1,5 @@
 import 'package:ecom/features/auth/onboarding_controller/onboarding_controller.dart';
-import 'package:ecom/features/auth/screens/widgets/onboarding_widgets.dart';
+import 'package:ecom/features/auth/screens/onboarding/widgets/onboarding_widgets.dart';
 import 'package:ecom/utils/constants/sizes.dart';
 import 'package:ecom/utils/device/device_utility.dart';
 import 'package:ecom/utils/helpers/helper_functions.dart';

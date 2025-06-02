@@ -14,7 +14,7 @@ import '../../../../utils/constants/colors.dart';
 import '../../../../utils/constants/images_strings.dart';
 import '../../../../utils/constants/sizes.dart';
 import '../../../../utils/constants/text_strings.dart';
-import '../widgets/home_appbar.dart';
+import 'widgets/home_appbar.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -71,4 +71,3 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
-
