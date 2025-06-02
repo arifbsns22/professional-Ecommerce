@@ -12,4 +12,16 @@ class TImages {
 
 
 
+  //=================Category Icons===========
+  static const String  sportIcon = "assets/icons/categories/sports.png";
+  static const String  clothIcon = "assets/icons/categories/animals.png";
+  static const String  shoeIcon = "assets/icons/categories/shoe.png";
+  static const String  cosmeticsIcon = "assets/icons/categories/cosmetics.png";
+  static const String  animalIcon = "assets/icons/categories/animals.png";
+  static const String  toyIcon = "assets/icons/categories/toy.png";
+  static const String  furnitureIcon = "assets/icons/categories/furniture.png";
+  static const String  electronicsIcon = "assets/icons/categories/smartphone.png";
+
+
+
 }
