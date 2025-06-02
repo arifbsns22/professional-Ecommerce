@@ -65,6 +65,16 @@ class HomeScreen extends StatelessWidget {
                 ],
               ),
             ),
+//==================================Body=================
+
+            Padding(padding: EdgeInsets.all(TSizes.defaultSpace),
+            child: Column(
+              children: [
+
+              ],
+            ),
+
+            ),
           ],
         ),
       ),
