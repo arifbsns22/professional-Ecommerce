@@ -1,5 +1,5 @@
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:ecom/common/widgets/custom_shapes/containers/circular_container.dart';
+import 'package:ecom/common/widgets/custom_shapes/containers/rounded_container.dart';
 import 'package:ecom/features/screens/home/widgets/home_categories.dart';
 import 'package:ecom/features/screens/home/widgets/promo_slider.dart';
 import 'package:ecom/utils/device/device_utility.dart';
@@ -82,7 +82,10 @@ class HomeScreen extends StatelessWidget {
                         TImages.promoBanner4,
                       ],
                     ),
-                    TProductCardVertical (),
+                    SizedBox(
+                      height: TSizes.spaceBtwSections,
+                    ),
+                    TProductCardVertical(),
                   ],
                 )),
           ],

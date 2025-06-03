@@ -4,7 +4,7 @@ import 'package:ecom/utils/constants/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../../../common/widgets/custom_shapes/containers/circular_container.dart';
+import '../../../../common/widgets/custom_shapes/containers/rounded_container.dart';
 import '../../../../common/widgets/images/t_rounded_image.dart';
 import '../../../../utils/constants/images_strings.dart';
 import '../../../../utils/constants/sizes.dart';
@@ -35,7 +35,7 @@ final List<String> banners;
               mainAxisSize: MainAxisSize.min,
               children: [
                 for (int i = 0; i < banners.length; i++)
-                  TCircularContainer(
+                  TRoundedContainer(
                     width: 20,
                     height: 5,
                     backgroundColor: controller.carousalCurrentIndex.value == i
