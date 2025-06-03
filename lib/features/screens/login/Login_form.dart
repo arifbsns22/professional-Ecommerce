@@ -1,5 +1,4 @@
-import 'package:ecom/features/auth/screens/password_config/forget_password.dart';
-import 'package:ecom/features/auth/screens/signup/signup.dart';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
@@ -8,6 +7,8 @@ import 'package:iconsax/iconsax.dart';
 import '../../../../navigation_menu.dart';
 import '../../../../utils/constants/sizes.dart';
 import '../../../../utils/constants/text_strings.dart';
+import '../password_config/forget_password.dart';
+import '../signup/signup.dart';
 
 class TLoginForm extends StatelessWidget {
   const TLoginForm({

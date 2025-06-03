@@ -4,7 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
-import 'features/auth/screens/home/home.dart';
+import 'features/screens/home/home.dart';
+
 
 class NavigationMenu extends StatelessWidget {
   const NavigationMenu({super.key});

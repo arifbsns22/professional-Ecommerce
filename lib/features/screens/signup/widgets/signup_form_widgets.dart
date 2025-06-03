@@ -1,12 +1,11 @@
-import 'package:ecom/features/auth/screens/signup/verify_email.dart';
-import 'package:ecom/features/auth/screens/widgets/terms_condition_checkbox.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:iconsax/iconsax.dart';
 
 import '../../../../../utils/constants/sizes.dart';
 import '../../../../../utils/constants/text_strings.dart';
+import '../../widgets/terms_condition_checkbox.dart';
+import '../verify_email.dart';
 
 class TSignupForm extends StatelessWidget {
   const TSignupForm({

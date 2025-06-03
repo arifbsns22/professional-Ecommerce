@@ -1,4 +1,4 @@
-import 'package:ecom/features/auth/screens/password_config/reset_password.dart';
+import 'package:ecom/features/screens/password_config/reset_password.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
